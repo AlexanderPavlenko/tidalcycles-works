@@ -1,0 +1,5 @@
+setcps (130/60/4)
+
+-- MIDI output
+d1 $ n "c4 d4 e5 g3" # s "midi" # midichan 0
+d2 $ ccv "20 100" # ccn 30 # s "midi"
